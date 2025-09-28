@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head runat="server">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Quiz App - Make You IQ Stronger With Quiz App</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="result-container" id="resultContainer">
+      <div class="result-content">
+        <div class="content">
+          <div class="result">
+            <h2>Your Score</h2>
+            <div class="circle">
+              <p class="big" id="resultTotal">76</p>
+              <p>of <span id="allResultTotal"></span></p>
+            </div>
+            <p>Congratulations! You've outperformed most test-takers.</p>
+          </div>
+
+          <div class="summary">
+            <h2 class="summary-h2">Summary</h2>
+            <div class="category right">
+              <img
+                src="assets/right.svg"
+                alt="reaction icon"
+                width="25"
+                height="25"
+              />
+              <h3>Correct</h3>
+              <p id="correctAnswer">80</p>
+            </div>
+
+            <div class="category memory">
+              <img
+                src="assets/wrong.svg"
+                alt="memoty icon"
+                width="25"
+                height="25"
+              />
+              <h3>Wrong</h3>
+              <p id="wrongAnswer">92</p>
+            </div>
+
+            <div class="category skip">
+              <img
+                src="assets/skip.png"
+                alt="memoty icon"
+                width="25"
+                height="25"
+              />
+              <h3>Skip</h3>
+              <p id="skipAnswer">92</p>
+            </div>
+
+            <div class="category verbal">
+              <img
+                src="assets/total.svg"
+                alt="verbal icon"
+                width="25"
+                height="25"
+              />
+              <h3>Total</h3>
+              <p id="totalQuestion">8</p>
+            </div>
+
+            <button type="button" id="btnContinue">Continue</button>
+          </div>
+
+          <div class="skipTime">
+            <h5 class="skip-title">skip in></h5>
+            <span id="reloadTime">10</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="homePage" id="home">
+      <div class="container">
+        <div class="home-image">
+          <div class="img-banner">
+            <img src="assets/banner.jpg" class="img-fluid rounded" />
+          </div>
+
+          <div class="home-btn">
+            <button class="btn-start" id="startQuiz">Start Quiz</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div id="quizPanel">
+        <div class="quiz-container">
+          <form class="form-quiz" novalidate id="formData"></form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

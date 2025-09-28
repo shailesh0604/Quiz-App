@@ -1,0 +1,252 @@
+﻿const qaData = [
+  {
+      "question": "What is the capital of France?",
+      "answers": ["Paris", "London", "Berlin", "Rome"],
+      "correctAnswer": "Paris"
+  },
+  {
+      "question": "Who wrote the play 'Hamlet'?",
+      "answers": ["William Shakespeare", "Christopher Marlowe", "Jane Austen", "Charles Dickens"],
+      "correctAnswer": "William Shakespeare"
+  },
+  {
+      "question": "What is the chemical symbol for water?",
+      "answers": ["H2O", "CO2", "NaCl", "CH4"],
+      "correctAnswer": "H2O"
+  },
+  {
+      "question": "Which planet is known as the Red Planet?",
+      "answers": ["Mars", "Venus", "Jupiter", "Saturn"],
+      "correctAnswer": "Mars"
+  },
+  {
+      "question": "Who painted the Mona Lisa?",
+      "answers": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Michelangelo"],
+      "correctAnswer": "Leonardo da Vinci"
+  },
+  {
+      "question": "What is the tallest mountain in the world?",
+      "answers": ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"],
+      "correctAnswer": "Mount Everest"
+  },
+  {
+      "question": "What is the largest mammal in the world?",
+      "answers": ["Blue Whale", "Elephant", "Giraffe", "Hippo"],
+      "correctAnswer": "Blue Whale"
+  },
+  {
+      "question": "What is the capital of Japan?",
+      "answers": ["Tokyo", "Kyoto", "Osaka", "Seoul"],
+      "correctAnswer": "Tokyo"
+  },
+  {
+      "question": "Who invented the telephone?",
+      "answers": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Galileo Galilei"],
+      "correctAnswer": "Alexander Graham Bell"
+  },
+  {
+      "question": "What is the chemical symbol for gold?",
+      "answers": ["Au", "Ag", "Cu", "Fe"],
+      "correctAnswer": "Au"
+  },
+  {
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "answers": ["Harper Lee", "Mark Twain", "J.K. Rowling", "Ernest Hemingway"],
+      "correctAnswer": "Harper Lee"
+  },
+  {
+      "question": "What is the tallest tree in the world?",
+      "answers": ["Hyperion", "General Sherman", "Centurion", "Doerner Fir"],
+      "correctAnswer": "Hyperion"
+  },
+  {
+      "question": "What is the currency of Germany?",
+      "answers": ["Euro", "Dollar", "Pound", "Yen"],
+      "correctAnswer": "Euro"
+  },
+  {
+      "question": "Who discovered penicillin?",
+      "answers": ["Alexander Fleming", "Louis Pasteur", "Marie Curie", "Albert Einstein"],
+      "correctAnswer": "Alexander Fleming"
+  },
+  {
+      "question": "What is the largest ocean on Earth?",
+      "answers": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+      "correctAnswer": "Pacific Ocean"
+  },
+  {
+      "question": "What is the chemical symbol for sodium?",
+      "answers": ["Na", "Fe", "Ca", "K"],
+      "correctAnswer": "Na"
+  },
+  {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "answers": ["William Shakespeare", "Jane Austen", "Charles Dickens", "Mark Twain"],
+      "correctAnswer": "William Shakespeare"
+  },
+  {
+      "question": "What is the capital of Australia?",
+      "answers": ["Canberra", "Sydney", "Melbourne", "Perth"],
+      "correctAnswer": "Canberra"
+  },
+  {
+      "question": "Who was the first man to step on the moon?",
+      "answers": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"],
+      "correctAnswer": "Neil Armstrong"
+  },
+  {
+      "question": "What is the boiling point of water in Celsius?",
+      "answers": ["100 degrees", "0 degrees", "-100 degrees", "50 degrees"],
+      "correctAnswer": "100 degrees"
+  },
+  {
+      "question": "Who painted the Sistine Chapel ceiling?",
+      "answers": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello"],
+      "correctAnswer": "Michelangelo"
+  },
+  {
+      "question": "What is the largest desert in the world?",
+      "answers": ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Kalahari Desert"],
+      "correctAnswer": "Sahara Desert"
+  },
+  {
+      "question": "Who wrote '1984'?",
+      "answers": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "J.R.R. Tolkien"],
+      "correctAnswer": "George Orwell"
+  },
+  {
+      "question": "What is the chemical symbol for oxygen?",
+      "answers": ["O", "O2", "H2O", "CO2"],
+      "correctAnswer": "O"
+  },
+  {
+      "question": "Who is known as the 'Father of Computers'?",
+      "answers": ["Charles Babbage", "Alan Turing", "Ada Lovelace", "Steve Jobs"],
+      "correctAnswer": "Charles Babbage"
+  },
+  {
+      "question": "What is the largest planet in the solar system?",
+      "answers": ["Jupiter", "Saturn", "Neptune", "Uranus"],
+      "correctAnswer": "Jupiter"
+  },
+  {
+      "question": "Who is the author of 'The Great Gatsby'?",
+      "answers": ["F. Scott Fitzgerald", "Ernest Hemingway", "John Steinbeck", "William Faulkner"],
+      "correctAnswer": "F. Scott Fitzgerald"
+  },
+  {
+      "question": "What is the chemical symbol for carbon?",
+      "answers": ["C", "Ca", "Co", "Cu"],
+      "correctAnswer": "C"
+  },
+  {
+      "question": "Who discovered the theory of relativity?",
+      "answers": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Stephen Hawking"],
+      "correctAnswer": "Albert Einstein"
+  },
+  {
+      "question": "What is the largest river in the world?",
+      "answers": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
+      "correctAnswer": "Amazon River"
+  },
+  {
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "answers": ["Jane Austen", "Emily Bronte", "Charlotte Bronte", "Agatha Christie"],
+      "correctAnswer": "Jane Austen"
+  },
+  {
+      "question": "What is the chemical symbol for helium?",
+      "answers": ["He", "H", "Ne", "Ar"],
+      "correctAnswer": "He"
+  },
+  {
+      "question": "Who painted 'Starry Night'?",
+      "answers": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+      "correctAnswer": "Vincent van Gogh"
+  },
+  {
+      "question": "What is the largest island in the world?",
+      "answers": ["Greenland", "Australia", "Madagascar", "Borneo"],
+      "correctAnswer": "Greenland"
+  },
+  {
+      "question": "Who composed 'Symphony No. 9'?",
+      "answers": ["Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Pyotr Ilyich Tchaikovsky"],
+      "correctAnswer": "Ludwig van Beethoven"
+  },
+  {
+      "question": "What is the chemical symbol for silver?",
+      "answers": ["Ag", "Au", "Cu", "Al"],
+      "correctAnswer": "Ag"
+  },
+  {
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "answers": ["Marie Curie", "Rosalind Franklin", "Dorothy Hodgkin", "Barbara McClintock"],
+      "correctAnswer": "Marie Curie"
+  },
+  {
+      "question": "What is the longest river in Europe?",
+      "answers": ["Volga River", "Danube River", "Rhine River", "Loire River"],
+      "correctAnswer": "Volga River"
+  },
+  {
+      "question": "Who wrote 'Moby Dick'?",
+      "answers": ["Herman Melville", "Mark Twain", "Leo Tolstoy", "Jane Austen"],
+      "correctAnswer": "Herman Melville"
+  },
+  {
+      "question": "What is the chemical symbol for iron?",
+      "answers": ["Fe", "Au", "Ag", "Cu"],
+      "correctAnswer": "Fe"
+  },
+  {
+      "question": "Who discovered gravity?",
+      "answers": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Stephen Hawking"],
+      "correctAnswer": "Isaac Newton"
+  },
+  {
+      "question": "What is the smallest planet in the solar system?",
+      "answers": ["Mercury", "Venus", "Mars", "Earth"],
+      "correctAnswer": "Mercury"
+  },
+  {
+      "question": "Who wrote 'The Catcher in the Rye'?",
+      "answers": ["J.D. Salinger", "F. Scott Fitzgerald", "Ernest Hemingway", "Mark Twain"],
+      "correctAnswer": "J.D. Salinger"
+  },
+  {
+      "question": "What is the chemical symbol for nitrogen?",
+      "answers": ["N", "Na", "Ni", "Ne"],
+      "correctAnswer": "N"
+  },
+  {
+      "question": "Who painted 'The Last Supper'?",
+      "answers": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"],
+      "correctAnswer": "Leonardo da Vinci"
+  },
+  {
+      "question": "What is the largest continent in the world?",
+      "answers": ["Asia", "Africa", "North America", "Europe"],
+      "correctAnswer": "Asia"
+  },
+  {
+      "question": "Who wrote 'The Odyssey'?",
+      "answers": ["Homer", "Virgil", "Plato", "Aristotle"],
+      "correctAnswer": "Homer"
+  },
+  {
+      "question": "What is the chemical symbol for lead?",
+      "answers": ["Pb", "Li", "P", "Pt"],
+      "correctAnswer": "Pb"
+  },
+  {
+      "question": "Who discovered America?",
+      "answers": ["Christopher Columbus", "Amerigo Vespucci", "Leif Erikson", "Ferdinand Magellan"],
+      "correctAnswer": "Christopher Columbus"
+  },
+  {
+      "question": "What is the highest waterfall in the world?",
+      "answers": ["Angel Falls", "Niagara Falls", "Victoria Falls", "Iguazu Falls"],
+      "correctAnswer": "Angel Falls"
+  }
+];
