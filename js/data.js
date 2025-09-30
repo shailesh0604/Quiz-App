@@ -5,11 +5,6 @@
     correctAnswer: "New Delhi",
   },
   {
-    question: "Which is the longest river in the world?",
-    answers: ["Amazon", "Nile", "Yangtze", "Ganga"],
-    correctAnswer: "Nile",
-  },
-  {
     question: "Which planet is known as the Red Planet?",
     answers: ["Earth", "Mars", "Jupiter", "Venus"],
     correctAnswer: "Mars",
@@ -458,5 +453,145 @@
     question: "Which is the highest civilian award in India?",
     answers: ["Padma Shri", "Padma Bhushan", "Padma Vibhushan", "Bharat Ratna"],
     correctAnswer: "Bharat Ratna",
+  },
+  {
+    question: "Which Indian monument is also known as the 'Symbol of Love'?",
+    answers: ["Qutub Minar", "India Gate", "Taj Mahal", "Red Fort"],
+    correctAnswer: "Taj Mahal",
+  },
+  {
+    question: "Which planet is the hottest in the solar system?",
+    answers: ["Mercury", "Venus", "Mars", "Jupiter"],
+    correctAnswer: "Venus",
+  },
+  {
+    question: "Who was the first woman Prime Minister of India?",
+    answers: [
+      "Sarojini Naidu",
+      "Indira Gandhi",
+      "Pratibha Patil",
+      "Sonia Gandhi",
+    ],
+    correctAnswer: "Indira Gandhi",
+  },
+  {
+    question: "What is the capital of Australia?",
+    answers: ["Sydney", "Melbourne", "Canberra", "Perth"],
+    correctAnswer: "Canberra",
+  },
+  {
+    question: "Which is the fastest land animal?",
+    answers: ["Cheetah", "Tiger", "Horse", "Lion"],
+    correctAnswer: "Cheetah",
+  },
+  {
+    question: "Which Indian festival is known as the Festival of Lights?",
+    answers: ["Holi", "Diwali", "Navratri", "Onam"],
+    correctAnswer: "Diwali",
+  },
+  {
+    question: "Which blood group is known as the universal donor?",
+    answers: ["A", "B", "O Negative", "AB Positive"],
+    correctAnswer: "O Negative",
+  },
+  {
+    question: "Who invented the telephone?",
+    answers: [
+      "Alexander Graham Bell",
+      "Thomas Edison",
+      "Nikola Tesla",
+      "James Watt",
+    ],
+    correctAnswer: "Alexander Graham Bell",
+  },
+  {
+    question: "Which Indian state is called the 'Spice Garden of India'?",
+    answers: ["Kerala", "Goa", "Karnataka", "Tamil Nadu"],
+    correctAnswer: "Kerala",
+  },
+  {
+    question: "Which is the longest river in the world?",
+    answers: ["Amazon", "Nile", "Ganga", "Yangtze"],
+    correctAnswer: "Nile",
+  },
+  {
+    question: "What is the currency of the United Kingdom?",
+    answers: ["Dollar", "Euro", "Pound Sterling", "Franc"],
+    correctAnswer: "Pound Sterling",
+  },
+  {
+    question: "Which Indian leader is known as the 'Iron Man of India'?",
+    answers: [
+      "Jawaharlal Nehru",
+      "Subhash Chandra Bose",
+      "Sardar Vallabhbhai Patel",
+      "Mahatma Gandhi",
+    ],
+    correctAnswer: "Sardar Vallabhbhai Patel",
+  },
+  {
+    question: "What is the national sport of Japan?",
+    answers: ["Baseball", "Sumo Wrestling", "Judo", "Karate"],
+    correctAnswer: "Sumo Wrestling",
+  },
+  {
+    question: "Which bird is known as the national bird of India?",
+    answers: ["Peacock", "Sparrow", "Parrot", "Crow"],
+    correctAnswer: "Peacock",
+  },
+  {
+    question: "Which country is known as the Land of Rising Sun?",
+    answers: ["China", "Japan", "Thailand", "South Korea"],
+    correctAnswer: "Japan",
+  },
+  {
+    question: "Which Indian state is famous for tea plantations?",
+    answers: ["Assam", "Kerala", "Punjab", "Maharashtra"],
+    correctAnswer: "Assam",
+  },
+  {
+    question: "What is the scientific symbol for water?",
+    answers: ["H2O", "O2", "CO2", "NaCl"],
+    correctAnswer: "H2O",
+  },
+  {
+    question: "Which is the largest desert in the world?",
+    answers: ["Sahara", "Gobi", "Kalahari", "Thar"],
+    correctAnswer: "Sahara",
+  },
+  {
+    question: "Who was known as the 'Missile Man of India'?",
+    answers: [
+      "Homi J. Bhabha",
+      "Dr. A. P. J. Abdul Kalam",
+      "Vikram Sarabhai",
+      "Satish Dhawan",
+    ],
+    correctAnswer: "Dr. A. P. J. Abdul Kalam",
+  },
+  {
+    question: "Which is the national currency of China?",
+    answers: ["Yen", "Won", "Yuan", "Ringgit"],
+    correctAnswer: "Yuan",
+  },
+  {
+    question: "Which gas is known as laughing gas?",
+    answers: ["Oxygen", "Nitrous Oxide", "Carbon Monoxide", "Helium"],
+    correctAnswer: "Nitrous Oxide",
+  },
+  {
+    question: "What is the capital of Russia?",
+    answers: ["Moscow", "Saint Petersburg", "Kazan", "Sochi"],
+    correctAnswer: "Moscow",
+  },
+  {
+    question: "Which Indian state is known as the Land of Five Rivers?",
+    answers: ["Punjab", "Haryana", "Uttar Pradesh", "Rajasthan"],
+    correctAnswer: "Punjab",
+  },
+  {
+    question: "Which instrument is used to measure earthquakes?",
+    answers: ["Seismograph", "Barometer", "Thermometer", "Anemometer"],
+    correctAnswer: "Seismograph",
   },
 ];

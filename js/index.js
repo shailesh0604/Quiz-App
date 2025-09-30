@@ -174,7 +174,7 @@ function displayQuestion() {
         </div>
 
         <div class="btn-container text-center">
-            <button class ="btn-submit" type="button" id="nextButton" onclick="skipQuestion()">Next</button>
+            <button class ="btn-submit" type="button" id="nextButton" onclick="skipQuestion()">Skip</button>
         </div>
     `;
 
