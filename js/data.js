@@ -170,9 +170,9 @@
     correctAnswer: "Astronomy",
   },
   {
-    question: "What is the chemical formula of water?",
-    answers: ["CO2", "H2O", "NaCl", "O2"],
-    correctAnswer: "H2O",
+    question: "Which ocean is the largest?",
+    answers: ["Atlantic", "Indian", "Pacific", "Arctic"],
+    correctAnswer: "Pacific",
   },
   {
     question: "Which is the largest country by area?",
@@ -210,14 +210,9 @@
     correctAnswer: "Jaipur",
   },
   {
-    question: "Who invented the light bulb?",
-    answers: [
-      "Albert Einstein",
-      "Thomas Edison",
-      "James Watt",
-      "Michael Faraday",
-    ],
-    correctAnswer: "Thomas Edison",
+    question: "Which Indian state is known as the 'Land of Five Rivers'?",
+    answers: ["Punjab", "Haryana", "Uttar Pradesh", "Rajasthan"],
+    correctAnswer: "Punjab",
   },
   {
     question: "What is the freezing point of water?",
@@ -233,11 +228,6 @@
     question: "Which is the most spoken language in the world?",
     answers: ["English", "Spanish", "Hindi", "Mandarin"],
     correctAnswer: "Mandarin",
-  },
-  {
-    question: "Which organ of the human body detoxifies chemicals?",
-    answers: ["Heart", "Liver", "Kidney", "Lungs"],
-    correctAnswer: "Liver",
   },
   {
     question: "Which ocean surrounds the Maldives?",
@@ -280,56 +270,6 @@
     correctAnswer: "Diamond",
   },
   {
-    question: "Which Indian festival is known as the Festival of Colors?",
-    answers: ["Diwali", "Eid", "Holi", "Onam"],
-    correctAnswer: "Holi",
-  },
-  {
-    question: "Which gas is essential for breathing?",
-    answers: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
-    correctAnswer: "Oxygen",
-  },
-  {
-    question: "Which country gifted the Statue of Liberty to the USA?",
-    answers: ["France", "England", "Germany", "Spain"],
-    correctAnswer: "France",
-  },
-  {
-    question: "Who is known as the Iron Man of India?",
-    answers: [
-      "B. R. Ambedkar",
-      "Sardar Vallabhbhai Patel",
-      "Mahatma Gandhi",
-      "Lal Bahadur Shastri",
-    ],
-    correctAnswer: "Sardar Vallabhbhai Patel",
-  },
-  {
-    question: "Which is the fastest land animal?",
-    answers: ["Cheetah", "Lion", "Horse", "Tiger"],
-    correctAnswer: "Cheetah",
-  },
-  {
-    question: "Which continent is known as the Dark Continent?",
-    answers: ["Asia", "Africa", "Australia", "South America"],
-    correctAnswer: "Africa",
-  },
-  {
-    question: "Who was the first woman to win a Nobel Prize?",
-    answers: [
-      "Marie Curie",
-      "Mother Teresa",
-      "Rosalind Franklin",
-      "Indira Gandhi",
-    ],
-    correctAnswer: "Marie Curie",
-  },
-  {
-    question: "Which is the hardest natural substance on Earth?",
-    answers: ["Gold", "Iron", "Diamond", "Platinum"],
-    correctAnswer: "Diamond",
-  },
-  {
     question: "Which planet is known as the Blue Planet?",
     answers: ["Mars", "Earth", "Neptune", "Venus"],
     correctAnswer: "Earth",
@@ -338,21 +278,6 @@
     question: "In which year did India gain independence?",
     answers: ["1945", "1947", "1950", "1952"],
     correctAnswer: "1947",
-  },
-  {
-    question: "Which blood group is known as the universal donor?",
-    answers: ["A+", "B+", "O-", "AB+"],
-    correctAnswer: "O-",
-  },
-  {
-    question: "Who discovered gravity?",
-    answers: [
-      "Albert Einstein",
-      "Galileo Galilei",
-      "Isaac Newton",
-      "Charles Darwin",
-    ],
-    correctAnswer: "Isaac Newton",
   },
   {
     question: "Which city is known as the City of Joy?",
@@ -390,12 +315,6 @@
     correctAnswer: "Bengaluru",
   },
   {
-    question:
-      "Which vitamin is produced when the human body is exposed to sunlight?",
-    answers: ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
-    correctAnswer: "Vitamin D",
-  },
-  {
     question: "Which is the national animal of Australia?",
     answers: ["Kangaroo", "Koala", "Emu", "Platypus"],
     correctAnswer: "Kangaroo",
@@ -431,11 +350,6 @@
     correctAnswer: "Yuri Gagarin",
   },
   {
-    question: "Which Indian festival is known as the Festival of Lights?",
-    answers: ["Holi", "Diwali", "Navratri", "Eid"],
-    correctAnswer: "Diwali",
-  },
-  {
     question: "Which animal is known as the Ship of the Desert?",
     answers: ["Horse", "Camel", "Donkey", "Ox"],
     correctAnswer: "Camel",
@@ -456,21 +370,6 @@
     correctAnswer: "Rabindranath Tagore",
   },
   {
-    question: "Which is the largest island in the world?",
-    answers: ["Greenland", "New Guinea", "Madagascar", "Borneo"],
-    correctAnswer: "Greenland",
-  },
-  {
-    question: "Which gas is most abundant in the Earth's atmosphere?",
-    answers: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
-    correctAnswer: "Nitrogen",
-  },
-  {
-    question: "Which country won the FIFA World Cup in 2018?",
-    answers: ["Brazil", "Germany", "France", "Argentina"],
-    correctAnswer: "France",
-  },
-  {
     question: "Which is the national tree of India?",
     answers: ["Neem", "Peepal", "Banyan", "Mango"],
     correctAnswer: "Banyan",
@@ -479,11 +378,6 @@
     question: "Which Indian city is known as the City of Lakes?",
     answers: ["Udaipur", "Bhopal", "Nainital", "Srinagar"],
     correctAnswer: "Udaipur",
-  },
-  {
-    question: "Which organ in the human body pumps blood?",
-    answers: ["Lungs", "Liver", "Heart", "Kidneys"],
-    correctAnswer: "Heart",
   },
   {
     question: "Who was the first Indian President?",
@@ -541,16 +435,6 @@
     correctAnswer: "Stapes",
   },
   {
-    question: "Who invented the light bulb?",
-    answers: [
-      "Nikola Tesla",
-      "Thomas Edison",
-      "Michael Faraday",
-      "Alexander Fleming",
-    ],
-    correctAnswer: "Thomas Edison",
-  },
-  {
     question: "Which planet is known for its rings?",
     answers: ["Jupiter", "Saturn", "Uranus", "Neptune"],
     correctAnswer: "Saturn",
@@ -571,18 +455,8 @@
     correctAnswer: "Skin",
   },
   {
-    question: "Which gas do humans need to survive?",
-    answers: ["Carbon Dioxide", "Nitrogen", "Oxygen", "Helium"],
-    correctAnswer: "Oxygen",
-  },
-  {
     question: "Which is the highest civilian award in India?",
     answers: ["Padma Shri", "Padma Bhushan", "Padma Vibhushan", "Bharat Ratna"],
     correctAnswer: "Bharat Ratna",
-  },
-  {
-    question: "Which Indian city is known as the Pink City?",
-    answers: ["Jaipur", "Jodhpur", "Agra", "Varanasi"],
-    correctAnswer: "Jaipur",
   },
 ];
